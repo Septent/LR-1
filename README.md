@@ -26,23 +26,23 @@
 
 - Получение записи из базы данных по id
 
-`GET` `http://localhost:8080/api/v1/product/5`
+`GET` `http://localhost:8080/api/v1/product/7`
 
 - Запись в базу данных нового продукта
 
 `POST` `http://localhost:8080/api/v1/product/`
 
-JSON: `{"name": "Мороженое", "brand": "Магнат", "price": 150, "quantity": 15 }`
+JSON: `{"title": "Don Quixote", "author": "Miguel de Cervantes", "genre": "Novel", "language": "Spanish" , "price": 950, "quantity": 535 }`
 
 - Изменение параметров продукта в базе данных по id
 
-`PUT` `http://localhost:8080/api/v1/product/6`
+`PUT` `http://localhost:8080/api/v1/product/8`
 
-JSON: `{"name": "Мороженое", "brand": "Магнат", "price": 125, "quantity": 30 }`
+JSON: `{"title": "Don Quixote", "author": "Miguel de Cervantes", "genre": "Novel", "language": "Spanish" , "price": 850, "quantity": 433 }`
 
 - Удаление записи из базы данных по id
 
-`DELETE` `http://localhost:8080/api/v1/product/6`
+`DELETE` `http://localhost:8080/api/v1/product/8`
 
 ##### 6. curl для обращения к ендпоинту, возвращающему hostname.
 
