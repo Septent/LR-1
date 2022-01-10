@@ -27,6 +27,5 @@ after_success:
 
 deploy:
   provider: heroku
-  edge: true
   api_key: $HEROKU_API_KEY
   app: septent-api
