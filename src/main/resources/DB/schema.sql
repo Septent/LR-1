@@ -6,8 +6,10 @@ CREATE SEQUENCE global_seq START WITH 1;
 
 CREATE TABLE product(
     id          INTEGER PRIMARY KEY DEFAULT nextval('global_seq'),
-    name        VARCHAR         NOT NULL,
-    brand       VARCHAR         NOT NULL,
+    title       VARCHAR         NOT NULL,
+    author      VARCHAR         NOT NULL,
+    genre       VARCHAR         NOT NULL,
+    language    VARCHAR         NOT NULL,
     price       INTEGER         NOT NULL,
     quantity    INTEGER         NOT NULL
 );

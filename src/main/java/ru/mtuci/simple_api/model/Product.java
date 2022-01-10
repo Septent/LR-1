@@ -17,9 +17,13 @@ import org.hibernate.validator.constraints.SafeHtml;
 @EqualsAndHashCode(callSuper = true)
 public class Product extends AbstractBaseEntity {
     @NotBlank
-    private String name;
+    private String title;
     @NotBlank
-    private String brand;
+    private String author;
+    @NotBlank
+    private String genre;
+    @NotBlank
+    private String language;
     @NotNull
     private Integer price;
     @NotNull
